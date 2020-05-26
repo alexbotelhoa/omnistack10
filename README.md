@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src="./assets/logo.svg" width="250px" />
+    <img alt="DevRadar" title="#delicinha" src="./frontend/src/assets/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -32,7 +32,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="./assets/devradar.png" width="100%">
+  <img alt="Frontend" src="./frontend/src/assets/devradar.png" width="100%">
 </p>
 
 ## :rocket: Tecnologias
