@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="DevRadar" title="#delicinha" src="./frontend/src/assets/logo.svg" width="250px" />
+    <img alt="DevRadar" title="DevRadar" src="./frontend/src/assets/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -22,11 +22,12 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#computer_mouse-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#computer-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#iphone-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#memo-licença">Licença</a>
 </p>
 
 <br>
@@ -37,25 +38,66 @@
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+:point_down: Esse projeto foi desenvolvido com as seguintes tecnologias: :point_down:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+-  [Node.js](https://nodejs.org/en/)
+-  [Express](https://expressjs.com/)
+-  [nodemon](https://github.com/remy/nodemon)
+-  [MongoDB](https://mongodb.com)
+-  [Mongoose](https://mongoosejs.com/)
+-  [Socket.io](https://socket.io/)
+-  [Cors](https://github.com/expressjs/cors)
+-  [ReactJS](https://reactjs.org/)
+-  [axios](https://github.com/axios/axios)
+-  [React Router](https://github.com/ReactTraining/react-router)
+-  [VS Code](https://code.visualstudio.com/)
+-  [React Native](https://reactnative.dev/)
+-  [React Expo](https://expo.io/)
+-  [React Navigation](https://reactnavigation.org/)
+-  [React Location](https://docs.expo.io/versions/latest/sdk/location)
 
-## 💻 Projeto
+## :computer: Projeto
 
 O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 
-## 🤔 Como contribuir
+## :information_source: Desenvolvimento
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+### :computer_mouse: Backend: 
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+```bash
+# Clone o Repositório
+$  git clone https://github.com/alexbotelhoa/omnistack7.git
+# Va até o diretório do backend, e instale suas dependências
+$ cd omnistack/backend
+# Instale as dependências
+$ yarn 
+# Rode o backend 
+$ yarn dev 
+```
+
+### :computer: Frontend: 
+
+```bash
+#Vá até a pasta frontend 
+$ cd frontend 
+#Instale as dependências
+$ yarn 
+#Inicie a aplicação 
+$ yarn start
+```
+
+### :iphone: Mobile:
+
+```bash
+#Vá até a pasta mobile 
+$ cd mobile 
+#Instale as dependências
+$ yarn 
+# Android 
+$ react-native run-android
+#iOS 
+$ react-native run-ios
+```
 
 ## :memo: Licença
 
