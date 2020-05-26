@@ -5,6 +5,7 @@
 <h4 align="center">
   🚀 Semana OmniStack 10.0
 </h4>
+
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alexbotelhoa/omnistack10">
 
@@ -66,7 +67,7 @@ O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que
 
 ```bash
 # Clone o Repositório
-$  git clone https://github.com/alexbotelhoa/omnistack7.git
+$  git clone https://github.com/alexbotelhoa/omnistack10.git
 # Va até o diretório do backend, e instale suas dependências
 $ cd omnistack/backend
 # Instale as dependências
