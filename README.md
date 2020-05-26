@@ -31,8 +31,6 @@
     <a href="#memo-licença">Licença</a>
 </p>
 
-<br>
-
 <p align="center">
   <img alt="Frontend" src="./frontend/src/assets/devradar.png" width="100%">
 </p>
@@ -49,7 +47,7 @@
 -  [Socket.io](https://socket.io/)
 -  [Cors](https://github.com/expressjs/cors)
 -  [ReactJS](https://reactjs.org/)
--  [axios](https://github.com/axios/axios)
+-  [Axios](https://github.com/axios/axios)
 -  [React Router](https://github.com/ReactTraining/react-router)
 -  [VS Code](https://code.visualstudio.com/)
 -  [React Native](https://reactnative.dev/)
@@ -69,11 +67,11 @@ O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que
 # Clone o Repositório
 $  git clone https://github.com/alexbotelhoa/omnistack10.git
 # Va até o diretório do backend, e instale suas dependências
-$ cd omnistack/backend
+$ cd backend
 # Instale as dependências
 $ yarn 
 # Rode o backend 
-$ yarn dev 
+$ yarn start 
 ```
 
 ### :computer: Frontend: 
