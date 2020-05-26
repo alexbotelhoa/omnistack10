@@ -1,11 +1,13 @@
 
 import React, { useState, useEffect } from 'react';
-import api from './services/api';
 
-import './Global.css';
 import './App.css';
+import './Global.css';
 import './Sidebar.css';
 import './Main.css';
+
+import api from './services/api';
+import logo from './assets/logo.svg';
 
 import DevForm from './components/DevForm';
 import DevItem from './components/DevItem';
@@ -30,19 +32,23 @@ function App() {
   }
 
   return (
-    <div id="app">
-      <aside>
-        <strong>Cadastrar</strong>
-        <DevForm onSubmit={handleAddDev} />
-      </aside>
+    <div className="container">
+      <img src={logo} alt="DevRadar" />
 
-      <main>
-        <ul>
-          {devs.map(dev => (
-            <DevItem key={dev._id} dev={dev} />
-          ))}
-        </ul>
-      </main>
+      <div id="app">
+        <aside>
+          <strong>Cadastrar</strong>
+          <DevForm onSubmit={handleAddDev} />
+        </aside>
+
+        <main>
+          <ul>
+            {devs.map(dev => (
+              <DevItem key={dev._id} dev={dev} />
+            ))}
+          </ul>
+        </main>
+      </div>
     </div>
   );
 }
