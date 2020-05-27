@@ -22,7 +22,7 @@ module.exports = {
 
             const location = {
                 type: 'Point',
-                coordinates: [latitude, longitude],
+                coordinates: [longitude, latitude],
             }
 
             dev = await Dev.create({
@@ -34,12 +34,12 @@ module.exports = {
                 location,
             })
 
-            // const sendSocketMessageTo = findConnections(
-            //     { longitude, latitude },
-            //     techsArray,
-            // )
+            const sendSocketMessageTo = findConnections(
+                { latitude, longitude },
+                techsArray,
+            )
         
-            // sendMessage(sendSocketMessageTo, 'new-dev', dev);
+            sendMessage(sendSocketMessageTo, 'new-dev', dev);
         }
 
         return res.json(dev)
