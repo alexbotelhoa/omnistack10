@@ -38,7 +38,7 @@
 </p>
 
 <p align="center">
-  <img alt="Frontend" src="./frontend/src/assets/devradar.png" width="100%">
+  <img alt="Frontend" src="https://user-images.githubusercontent.com/44276302/85878645-6af7b580-b7af-11ea-9dda-5fabc1183336.png" width="100%">
 </p>
 
 ## :rocket: Tecnologias
