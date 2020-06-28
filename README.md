@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
-    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer_mouse-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#iphone-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -40,6 +40,10 @@
 <p align="center">
   <img alt="Frontend" src="https://user-images.githubusercontent.com/44276302/85878645-6af7b580-b7af-11ea-9dda-5fabc1183336.png" width="100%">
 </p>
+
+## :computer: Projeto
+
+O DevRadar é um projeto que visa conectar desenvolvedores em localidades próximas e que trabalham com as mesmas tecnologias.
 
 ## :rocket: Tecnologias
 
@@ -60,10 +64,6 @@
 -  [React Expo](https://expo.io/)
 -  [React Navigation](https://reactnavigation.org/)
 -  [React Location](https://docs.expo.io/versions/latest/sdk/location)
-
-## :computer: Projeto
-
-O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 
 ## :information_source: Desenvolvimento
 
